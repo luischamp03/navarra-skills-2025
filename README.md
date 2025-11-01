@@ -27,7 +27,7 @@ El foco inicial del proyecto está en la experiencia de usuario (UX) y en la int
 
 Para ello, necesito que tú seas la persona encargada de construir el MVP (mínimo producto viable).
 
-No te preocupes, el diseño de lo que necesitamos por el momento está hecho y lo puedes [consultar aquí](https://www.figma.com/design/WhbXd9IZ2p2YLMnrXBJmKp/Adopter-%7C-Navarra-Skills-2025), ya que el trabajo del diseñador ya ha sido realizado. Tu tarea será convertir ese diseño en una `web-app` funcional, `mobile first`, e ir añadiendo funcionalidades de forma progresiva.
+No te preocupes, el diseño de lo que necesitamos por el momento está hecho y lo puedes [consultar aquí](https://www.figma.com/design/WhbXd9IZ2p2YLMnrXBJmKp/Adopter-%7C-Navarra-Skills-2025){:target="\_blank"}, ya que el trabajo del diseñador ya ha sido realizado. Tu tarea será convertir ese diseño en una `web-app` funcional, `mobile first`, e ir añadiendo funcionalidades de forma progresiva.
 
 Hasta el momento, he definido tres fases que van desde una versión simple y funcional hasta una versión más rica e interactiva, con la idea de lanzar la aplicación al mundo cuanto antes y poder aportar valor a las personas y animales.
 
