@@ -174,3 +174,24 @@ footer{
 text-decoration: none;
 color:#1E7DDD;
 }
+
+/* Fase 2*/
+.matches{
+  display: flex;
+  position: relative;
+}
+
+.match-count{
+  background-color: crimson;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 0.620rem;
+  padding: 0.25rem;
+  height: 16px;
+  width: 16px;
+  text-align: center;
+  color:#fff;
+  font-weight: 600;
+  top:27%;
+  right: -2px;
+}
