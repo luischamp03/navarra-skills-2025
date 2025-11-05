@@ -21,6 +21,7 @@ function sumaContador() {
     spanContador.textContent = 1;
     matches.appendChild(spanContador);
   }
+  pets.pop().remove();
 }
 
 function contadorMatches(e) {
@@ -47,14 +48,14 @@ pets.forEach((pet) => {
   let nope = pet.querySelector(".nope");
   let coords;
 
-  pet.addEventListener("mousedown", function (event) {
+  pet.addEventListener("dragstart", function (event) {
     isDragging = true;
     offsetX = event.clientX - pet.offsetLeft;
     offsetY = event.clientY - pet.offsetTop;
     pet.style.cursor = "grabbing";
   });
 
-  pet.addEventListener("mousemove", function (event) {
+  pet.addEventListener("drag", function (event) {
     if (!isDragging) return;
     coords = event.clientX - offsetX;
     if (coords > 0) {
@@ -65,7 +66,7 @@ pets.forEach((pet) => {
     pet.style.transform = `translateX(${coords}px) rotate(${coords / 10}deg)`;
   });
 
-  pet.addEventListener("mouseup", function () {
+  pet.addEventListener("dragend", function () {
     if (isDragging) {
       isDragging = false;
       pet.style.cursor = "grab";
